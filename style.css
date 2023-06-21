@@ -1,0 +1,177 @@
+/* reset */
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+header, footer {
+    width: 100%;
+    height: 100px;
+    background-color: gray;
+}
+
+/* Estilo del header */
+header {
+    height: 100px;
+    width: auto;
+    background-color: gray;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+#ul_nav {
+    display: flex;
+    gap: 110px;
+    list-style: none;
+    align-items: center;
+}
+
+#nombrePagina{
+    font-size: x-large;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    text-align: center;
+    font-size: large;
+}
+
+#logoNav {
+    width: 80px;
+    height: 80px;
+    /* margin-right: 50px; */
+}
+
+#logo {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Formulario */
+
+#section_form{
+    width: auto;
+    height: 550px;
+    padding: 1%;
+    justify-content: center;
+    text-align: center;
+}
+
+#formulario{
+    display: block;
+}
+
+#h1_form{
+    margin-bottom: 2%;
+}
+
+.bloque_form{
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+}
+
+.texto_form{
+    font-size: x-large;
+}
+
+.bloque_input{
+    margin-top: 0.5%;
+    width: auto;
+    height: 50px;
+}
+
+#provincia{
+    text-align: center;
+    margin-top: 0.5%;
+    width: 25%;
+    height: 30px;
+}
+
+.input_form{
+    margin-top: 0.5%;
+    width: 25%;
+    height: 30px;
+    text-align: center;
+}
+
+#formulario button{
+    margin-top: 0.8%;
+    width: 15%;
+    height: 40px;
+    text-align: center;
+}
+
+/* PERSONAS */
+
+#no_personas{
+    margin-top: 15px;
+}
+
+#section_personas {
+    text-align: center;
+    width: auto;
+    height: auto;
+    margin: 50px;
+}
+
+#Titulo_Personas {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Contenedor que contiene las CARD */
+#contenedor_personas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    width: auto;
+    height: auto;
+}
+
+/* Las CARD de cada persona */
+.card_persona{
+    width: auto;
+    height: 180px;
+    margin: 15px;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: rgb(241, 202, 176);
+}
+
+.persona_h3 {
+    text-align: center;
+    margin: 5px;
+    font-size: 18px;
+}
+
+.nombre_persona {
+    font-weight: bold;
+    font-size: larger;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+/* Footer */
+#foot{
+    text-align: center;
+}
+
+#foot h3{
+    padding-top: 35px;
+}

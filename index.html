@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabajo integrador - Alan Saenz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header id="head">
+        <nav id="nav">
+
+            <div id="logoNav">
+                <img id="logo" src="imagenes/logo.png" alt="Logo">
+            </div>
+
+            <div id="navContent">
+                <ul id="ul_nav">        
+                    <li></li> <!-- Espacio que hay en el nav -->
+                    <li><h3 id="nombrePagina">Programacion 3 - Cent N° 35</h3></li>
+                    <li></li> <!-- Espacio que hay en el nav -->
+                    <li><a href="#inicio">Home</a></li>
+                    <li><a href="#servicios">Servicios</a></li>
+                    <li><a href="#producto">Producto</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+                
+            </div>
+        </nav>
+    </header>
+
+    <section id="section_form">
+        <h1 id="h1_form">↓ Formulario para registrar personas ↓</h1>
+
+        <form id="formulario">
+            <div class="bloque_form">
+                <label class="texto_form" for="nombre">Ingrese su nombre completo:</label>
+            </div>
+            <div class="bloque_input">
+                <input class="input_form" type="text" id="nombre" required>
+            </div>
+
+            <div class="bloque_form">
+                <label class="texto_form" for="email">Ingrese su Email:</label>
+            </div>
+            <div class="bloque_input">
+                <input class="input_form" type="text" id="email" required>
+            </div>
+
+            <div class="bloque_form">
+                <label class="texto_form" for="contra">Ingrese una contraseña:</label>
+            </div>
+            <div class="bloque_input">
+                <input class="input_form" type="text" id="contra" required>
+            </div>
+
+            <div class="bloque_form">
+                <label class="texto_form" for="provincia">Seleccione una provincia:</label><br>
+            </div>
+            <div class="bloque_input">
+                <select id="provincia" required>
+                    <option value="">Seleccione una provincia</option>
+                    <option value="Buenos Aires">Buenos Aires</option>
+                    <option value="Catamarca">Catamarca</option>
+                    <option value="Chaco">Chaco</option>
+                    <option value="Chubut">Chubut</option>
+                    <option value="Córdoba">Córdoba</option>
+                    <option value="Corrientes">Corrientes</option>
+                    <option value="Entre Ríos">Entre Ríos</option>
+                    <option value="Formosa">Formosa</option>
+                    <option value="Jujuy">Jujuy</option>
+                    <option value="La Pampa">La Pampa</option>
+                    <option value="La Rioja">La Rioja</option>
+                    <option value="Mendoza">Mendoza</option>
+                    <option value="Misiones">Misiones</option>
+                    <option value="Neuquén">Neuquén</option>
+                    <option value="Río Negro">Río Negro</option>
+                    <option value="Salta">Salta</option>
+                    <option value="San Juan">San Juan</option>
+                    <option value="San Luis">San Luis</option>
+                    <option value="Santa Cruz">Santa Cruz</option>
+                    <option value="Santa Fe">Santa Fe</option>
+                    <option value="Santiago del Estero">Santiago del Estero</option>
+                    <option value="Tierra del Fuego">Tierra del Fuego</option>
+                    <option value="Tucumán">Tucumán</option>
+                </select>
+            </div>
+            
+            <button type="submit">Registrarme</button>
+        </form>
+
+    </section>
+
+    <section id="section_personas">
+
+        <h1 id="Titulo_Personas">Personas Registradas</h1>
+
+        <div id="contenedor_personas">
+
+        </div>
+    </section>
+
+    <footer id="foot">
+        <h3>Cent 35 @ Todos los derechos reservados</h3>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
