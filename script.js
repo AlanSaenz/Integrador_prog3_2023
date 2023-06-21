@@ -39,7 +39,7 @@ formulario.addEventListener("submit", function(event) {
     lista_persona(persona)
 });
 
-// Funcion IF para mostra un texto si no hay personas registradas
+// IF para mostra un texto si no hay personas registradas
 if (persona.length == 0) {
     contenedor_persona.innerHTML = `
     <h3 id="no_personas"> No existen personas registradas </h3>
